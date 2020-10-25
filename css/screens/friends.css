@@ -16,9 +16,9 @@
   padding: 0px var(--horizontal-space);
 }
 
-.friends-screen {
+.friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 
@@ -32,7 +32,7 @@
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
-.nav_link {
-  display: flex;
-  justify-content: space-between;
+
+.user-component__name {
+  margin-bottom: 30px;
 }
