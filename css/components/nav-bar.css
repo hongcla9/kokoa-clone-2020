@@ -18,6 +18,18 @@
   position: relative;
   color: inherit;
 }
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
 .nav_notification {
   background-color: tomato;
   width: 30px;
@@ -31,6 +43,7 @@
   position: absolute;
   top: 3px;
   margin: 2px 18px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav-ellipsis {
